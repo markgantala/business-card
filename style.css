@@ -1,0 +1,36 @@
+body{
+    margin: 10px;
+    font-family: Georgia, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    border: 5px solid #000000;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #e5e5e5;
+    background-color: #14213d;
+    border-radius: 20px;
+}
+
+img {
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.details {
+    text-shadow: 2px 2px 4px #000000
+}
+
+.details h3:hover, p:hover, h4:hover{
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+
+
